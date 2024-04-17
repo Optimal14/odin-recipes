@@ -1,0 +1,27 @@
+.main-header,
+h2,
+ol,
+ul,
+p {
+	color: rgb(60, 59, 59);
+}
+
+ol > li::marker,
+ul > li::marker {
+	font-weight: bold;
+}
+
+* {
+	font-family: helvetica, sans-serif;
+}
+
+p,
+ol,
+ul {
+	font-size: 18px;
+}
+
+img {
+	height: auto;
+	width: 550;
+}
