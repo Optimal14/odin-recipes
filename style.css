@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 .main-header,
 h2,
 ol,
@@ -24,4 +27,25 @@ ul {
 img {
 	height: auto;
 	width: 550;
+}
+
+.index {
+	text-align: center;
+	font-size: 40px;
+}
+
+.pages {
+	font-size: 32px;
+	padding: 0px;
+	border: 0;
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.cookies,
+.fried-shrimp,
+.pancakes {
+	background-color: rgb(169, 167, 201);
+	border-radius: 25px;
+	padding: 8px;
 }
